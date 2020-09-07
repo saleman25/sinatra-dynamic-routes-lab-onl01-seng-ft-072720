@@ -15,4 +15,3 @@ end
 get '/:operation/:number1/:number2'
 end 
 
-end
