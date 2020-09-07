@@ -7,7 +7,7 @@ get '/reversename/:name' do
 end 
 
 get '/square/:number' do 
-  
+  (params)
 end 
 
 get '/say/:word1/:word2/:word3/:word4/:word5'
