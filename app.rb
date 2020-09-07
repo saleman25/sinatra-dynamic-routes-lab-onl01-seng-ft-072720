@@ -11,9 +11,11 @@ get '/square/:number' do
 end 
 
 get '/say/:word1/:word2/:word3/:word4/:word5'
-answer = ''
-
-
+  answer = ''
+  params[:number].to_i.times do
+    answer += params[:phrase]
+end
+  answer
 end 
 
 get '/:operation/:number1/:number2'
